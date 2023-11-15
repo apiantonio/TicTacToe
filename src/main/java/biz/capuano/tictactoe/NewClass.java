@@ -10,5 +10,8 @@ package biz.capuano.tictactoe;
  */
 public class NewClass {
     
-    
+    private int x;
+
+    public NewClass() {
+    }
 }
