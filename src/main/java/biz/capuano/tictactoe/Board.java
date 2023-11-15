@@ -3,7 +3,6 @@ package biz.capuano.tictactoe;
 class Board {
     public static final int SIZE = 3;
     private final char[][] cells;
-    private int a;
 
     public Board() {
         cells = new char[SIZE][SIZE];
@@ -11,13 +10,9 @@ class Board {
             for (int j = 0; j < SIZE; j++)
                 cells[i][j] = ' ';
     }
-    
-    public int boh() {
-        return 10;
-    }
-    
+
     public void print() {
-        
+        System.out.println("\n┌───┬───┬───┐");        
         for (int i = 0; i < 3; i++) {
             System.out.print("│ ");
             for (int j = 0; j < 3; j++)
