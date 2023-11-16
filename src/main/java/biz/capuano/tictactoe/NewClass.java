@@ -9,5 +9,5 @@ package biz.capuano.tictactoe;
  * @author Antonio Apicella
  */
 public class NewClass {
-    
+    int x;
 }
